@@ -1,0 +1,48 @@
+{
+    "codename": "d_clear_image",
+    "version": "1.0.1",
+    "name": "Clear image fix",
+    "description": "Removes the white spots from trnasparent images. Do not forget to refresh the image/cache folder",
+   
+    "author": {
+        "name": "Dreamvention",
+        "email": "info@dreamvention.com",
+        "url": "https://dreamvention.com"
+    },
+    "opencart_version": [
+        "2.0.0.0",
+        "2.0.1.1",
+        "2.0.2.0",
+        "2.0.3.1"
+    ],
+    "mbooth_version": "3.0",
+    "type": "module",
+    "license": {
+        "type": "free",
+        "url": "https://shopunity.net/licenses/free"
+    },
+    "install": {
+        "url": "d_shopunity/extension/install_ocmod&codename=d_clear_image"      
+    },
+    "uninstall": {
+        "url": "d_shopunity/extension/uninstall_ocmod&codename=d_clear_image"      
+    },
+    "support": {
+        "email": "support@dreamvention.com",
+        "url": "https:/dreamvention.com/support"
+    },
+    "files": [
+        "system/mbooth/extension/d_clear_image.json",
+        "system/mbooth/install/d_clear_image.xml"
+            ],
+    "changelog": [
+        {
+        "version": "1.0.1",
+        "change": "Removed Vqmod. Ocmod added. Removed old mbooth xml."
+        },
+        {
+        "version": "1.0.0",
+        "change": ""
+        }
+    ]
+}

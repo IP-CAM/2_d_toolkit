@@ -20,12 +20,16 @@
 			]]></add>
         </operation>
         <operation error="skip">
-            <search><![CDATA[imagecopyresampled($this->image, $image_old, $xpos, $ypos, 0, 0, $new_width, $new_height, $this->info['width'], $this->info['height']);]]></search>
-			<add position="replace"><![CDATA[
+            <search><![CDATA[imagecopyresampled($this->image, $image_old, $xpos, $ypos, 0, 0, $new_width, $new_height,]]></search>
+			<add position="before"><![CDATA[
 		imagefilter($image_old, IMG_FILTER_NEGATE);
-		imagecopyresampled($this->image, $image_old, $xpos, $ypos, 0, 0, $new_width, $new_height, $this->info['width'], $this->info['height']);
-		imagefilter($this->image, IMG_FILTER_NEGATE);
 			]]></add>
+        </operation>
+        <operation error="skip">
+            <search><![CDATA[imagecopyresampled($this->image, $image_old, $xpos, $ypos, 0, 0, $new_width, $new_height,]]></search>
+            <add position="after"><![CDATA[
+        imagefilter($this->image, IMG_FILTER_NEGATE);
+            ]]></add>
         </operation>
     </file> 
 </modification>

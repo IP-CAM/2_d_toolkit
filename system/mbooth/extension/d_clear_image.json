@@ -20,7 +20,7 @@
         "2.3.0.2"
     ],
     "mbooth_version": "3.0",
-    "type": "module",
+    "type": "library",
     "license": {
         "type": "free",
         "url": "https://shopunity.net/licenses/free"

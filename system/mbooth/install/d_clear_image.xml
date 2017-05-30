@@ -6,7 +6,7 @@
     <version>1.5.x</version>
     <author>Dreamvention</author>
     <link>http://dreamvention.com</link>
-	<file path="system/startup.php">
+	<file path="system/library/image.php">
 		<operation error="skip">
             <search><![CDATA[$background = imagecolorallocatealpha($this->image, 255, 255, 255, 127);]]></search>
 			<add position="replace"><![CDATA[

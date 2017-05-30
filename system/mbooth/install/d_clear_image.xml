@@ -3,7 +3,7 @@
     <name>d_clear_image</name>
     <code>d_clear_image</code>
     <description>Remove "dirt" from images.</description>
-    <version>1.5.x</version>
+    <version>1.0.1</version>
     <author>Dreamvention</author>
     <link>http://dreamvention.com</link>
 	<file path="system/library/image.php">

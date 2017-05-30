@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modification>
     <name>d_clear_image</name>
-    <code>d_shopunity</code>
+    <code>d_clear_image</code>
     <description>Remove "dirt" from images.</description>
     <version>1.5.x</version>
     <author>Dreamvention</author>

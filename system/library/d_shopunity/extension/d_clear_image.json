@@ -1,6 +1,6 @@
 {
     "codename": "d_clear_image",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "name": "Clear image fix",
     "description": "Removes the white spots from trnasparent images. Do not forget to refresh the image/cache folder",
    
@@ -17,36 +17,41 @@
         "2.1.0.1",
         "2.1.0.2",
         "2.2.0.0",
-        "2.3.0.2"
+        "2.3.0.2",
+        "3.0.0.0",
+        "3.0.0.1"
     ],
-    "mbooth_version": "3.0",
     "type": "library",
     "license": {
         "type": "free",
         "url": "https://shopunity.net/licenses/free"
     },
     "install": {
-        "url": "d_shopunity/extension/install_ocmod&codename=d_clear_image"      
+        "url": "extension/d_shopunity/modification/install&codename=d_clear_image"      
     },
     "uninstall": {
-        "url": "d_shopunity/extension/uninstall_ocmod&codename=d_clear_image"      
+        "url": "extension/d_shopunity/modification/uninstall&codename=d_clear_image"      
     },
     "support": {
         "email": "support@dreamvention.com",
         "url": "https:/dreamvention.com/support"
     },
     "files": [
-        "system/mbooth/extension/d_clear_image.json",
-        "system/mbooth/install/d_clear_image.xml"
+        "system/library/d_shopunity/extension/d_clear_image.json",
+        "system/library/d_shopunity/install/d_clear_image.xml"
             ],
     "changelog": [
         {
-        "version": "1.0.1",
-        "change": "Removed Vqmod. Ocmod added. Removed old mbooth xml."
+            "version": "1.1.0",
+            "change": "Updated to fit new structure."
         },
         {
-        "version": "1.0.0",
-        "change": ""
+            "version": "1.0.1",
+            "change": "Removed Vqmod. Ocmod added. Removed old mbooth xml."
+        },
+        {
+            "version": "1.0.0",
+            "change": ""
         }
     ]
 }

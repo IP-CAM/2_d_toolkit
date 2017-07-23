@@ -1,0 +1,51 @@
+{
+    "codename": "d_firephp",
+    "version": "2.0.0",
+    "name": "FirePHP debugger",
+    "description": "Add firephp debug support. You will also need to install FirePHP4Chrome(chrome) or FirePHP(Firefox). To use the logger simply add in your php file FB::log('Hello firephp'); and visit your console.",
+    "author": {
+        "name": "firephp",
+        "url": "http://www.firephp.org/"
+    },
+    "opencart_version": [
+        "2.0.0.0",
+        "2.0.1.0",
+        "2.0.1.1",
+        "2.0.2.0",
+        "2.0.3.1",
+        "2.1.0.1",
+        "2.1.0.2",
+        "2.2.0.0",
+        "2.3.0.0",
+        "2.3.0.1",
+        "2.3.0.2",
+        "3.0.0.0",
+        "3.0.1.1",
+        "3.0.1.2",
+        "3.0.2.0"
+    ],
+    "type": "library",
+    "license": {
+        "type": "free",
+        "url": "https://shopunity.net/licenses/free"
+    },
+    "support": {
+        "email": "support@shopunity.com",
+        "url": "https://shopunity.net/"
+    },
+    "files": [
+        "system/library/d_shopunity/extension/d_firephp.json",
+        "system/library/d_firephp/FirePHP.class.php",
+        "system/library/fb.php"
+    ],
+    "changelog": [
+        {
+            "varsion":"2.0.0",
+            "change": "Chnaged to new folder structure"
+        }
+        {
+            "varsion":"1.0.0",
+            "change": ""
+        }
+    ]
+}

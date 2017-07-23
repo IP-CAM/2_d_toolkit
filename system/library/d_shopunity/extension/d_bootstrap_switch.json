@@ -1,7 +1,7 @@
 {
     "codename": "d_bootstrap_switch",
     "version": "3.3.5",
-    "name": "Riot",
+    "name": "Bootstrap switch",
     "description": "Implementation of bootstrap-switch https://github.com/Bttstrp/bootstrap-switch",
     "author": {
         "name": "Shopunity",

@@ -1,7 +1,7 @@
 {
     "codename": "d_riot",
     "version": "3.6.1",
-    "name": "Riot",
+    "name": "Riot js",
     "description": "Implementation of riotjs http://riotjs.com/",
     "author": {
         "name": "Shopunity",

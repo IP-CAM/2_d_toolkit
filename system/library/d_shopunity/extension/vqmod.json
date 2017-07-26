@@ -1,0 +1,67 @@
+{
+    "codename": "vqmod",
+    "version": "2.6.5",
+    "name": "Vqmod",
+    "description": "Vqmod installer",
+    "author": {
+        "name": "Shopunity",
+        "email": "info@shopunity.com",
+        "url": "https://shopunity.net/"
+    },
+    "opencart_version": [
+        "2.0.0.0",
+        "2.0.1.1",
+        "2.0.1.1",
+        "2.0.2.0",
+        "2.0.3.1",
+        "2.1.0.1",
+        "2.1.0.2",
+        "2.2.0.0",
+        "2.3.0.2"
+    ],
+    "install": {
+        "php": "system/library/d_shopunity/install/vqmod.php"
+    },
+    "type": "library",
+    "license": {
+        "type": "free",
+        "url": "https://shopunity.net/licenses/free"
+    },
+    "support": {
+        "email": "support@shopunity.com",
+        "url": "https://shopunity.net/"
+    },
+    "files": [
+        "system/library/d_shopunity/extension/vqmod.json",
+        "system/library/d_shopunity/install/vqmod.php",
+        "vqmod/pathReplaces.php",
+        "vqmod/readme.txt",
+        "vqmod/vqmod.php",
+        "vqmod/xml/vqmod_opencart.xml"
+    ],
+    "dirs": [
+        "vqmod/install"
+    ],
+    "changelog": [
+        {
+            "varsion":"2.6.5",
+            "change": "Added support for opencart 3.x"
+        },
+        {
+            "varsion":"2.6.4",
+            "change": "bug fix with extension.json - refactored"
+        },
+        {
+            "varsion":"2.6.3",
+            "change": "bug fix in install.php"
+        },
+        {
+            "varsion":"2.6.2",
+            "change": "added support for 2.3.0.0"
+        },
+        {
+            "varsion":"2.6.1",
+            "change": "fix installation bug"
+        }
+    ]
+}

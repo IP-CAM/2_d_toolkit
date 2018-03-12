@@ -1,0 +1,48 @@
+{
+  "codename": "d_admin_style",
+  "version": "1.0.0",
+  "name": "Admin Style",
+  "description": "Admin style: dark or light.",
+  "author": {
+    "name": "Dreamvention",
+    "email": "info@dreamvention.com",
+    "url": "https://dreamvention.com/"
+  },
+  "opencart_version": [
+    "2.0.1.0",
+    "2.0.1.1",
+    "2.0.2.0",
+    "2.0.3.1",
+    "2.1.0.1",
+    "2.1.0.2",
+    "2.2.0.0",
+    "2.3.0.0",
+    "2.3.0.1",
+    "2.3.0.2",
+    "3.0.0.0",
+    "3.0.1.1",
+    "3.0.1.2",
+    "3.0.2.0"
+  ],
+  "type": "library",
+  "license": {
+    "type": "free",
+    "url": "https://shopunity.net/licenses/free"
+  },
+  "support": {
+    "email": "support@dreamvention.com",
+    "url": "https://dreamvention.ee/support"
+  },
+  "files": [
+    "system/library/d_shopunity/extension/d_admin_style.json"
+  ],
+  "dirs":[
+    "admin/view/stylesheet/d_admin_style"
+  ],
+  "changelog": [
+    {
+      "version":"1.0.0",
+      "change": "Initial commit."
+    }
+  ]
+}

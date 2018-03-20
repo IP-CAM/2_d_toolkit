@@ -1,6 +1,6 @@
 {
   "codename": "d_admin_style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Admin Style",
   "description": "Admin style: dark or light.",
   "author": {
@@ -40,6 +40,10 @@
     "admin/view/stylesheet/d_admin_style"
   ],
   "changelog": [
+    {
+      "version":"1.0.1",
+      "change": "Add light default and dark theme"
+    },
     {
       "version":"1.0.0",
       "change": "Initial commit."

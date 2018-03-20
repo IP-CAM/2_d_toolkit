@@ -1,0 +1,10 @@
+@import "../scss/variable";
+.nav.nav-tabs>li>a:focus,.nav.nav-tabs>li>a:hover
+{
+  background-color: $some_gray;
+}
+.nav.nav-tabs>li>a{
+  padding-top:10px;
+  padding-bottom:10px;
+
+}

@@ -5,10 +5,19 @@ $color: rgb(176, 177, 184);
 $border_color: rgb(56, 58, 75);
 
 $main_blue: rgb(54, 116, 238);
+$dark_blue:$main_blue;
 $warning: rgb(244, 107, 66);
-$protected: rgb(67, 235, 171);
-$unprotected: rgb(250, 91, 109);
+$green: rgb(67, 235, 171);
+$red: rgb(250, 91, 109);
 $some_gray: rgb(176, 176, 176);
+$bs-callout-bgc:$border_color;
+$bs-callout-brdc-bgc:$some_gray;
+$code-bgc:$color;
+$code-c:$panel_background;
+$tile:$border_color;
+$tile-c:$color;
+
+$nav-color:#b0b1b8;
 
 $padding: 30px;
 

@@ -1,15 +1,22 @@
-$background: rgb(31, 35, 56);
-$heading_background: rgb(43, 46, 66);
-$panel_background: rgb(41, 45, 65);
-$color: rgb(176, 177, 184);
-$border_color: rgb(56, 58, 75);
-
-$main_blue: rgb(54, 116, 238);
+$background:#f8f9fc;
+$heading_background: #e9ebf4;
+$panel_background: #e9ebf4;
+$color: #000;
+$border_color: #dbdfef;
+$main_blue: #4fb5e7;
+$dark_blue: #3573ee;
 $warning: rgb(244, 107, 66);
-$protected: rgb(67, 235, 171);
-$unprotected: rgb(250, 91, 109);
-$some_gray: rgb(176, 176, 176);
+$green: #86ce99;
+$red: rgb(250, 91, 109);
+$some_gray: #e9ebf4;
+$bs-callout-bgc:#fff;
+$bs-callout-brdc-bgc:$warning;
+$code-bgc:$color;
+$code-c:$panel_background;
+$tile:$main_blue;
+$tile-c:#fff;
 
+$nav-color:$color;
 $padding: 30px;
 
 $very_slow_speed: 20.0s;
@@ -17,4 +24,5 @@ $slow_speed: 10.0s;
 $fast_speed: 3.0s;
 $very_fast_speed: 0.5s;
 
-$whoopsy_background: rgb(48, 48, 48);
+
+$whoopsy_background: #e9ebf4;

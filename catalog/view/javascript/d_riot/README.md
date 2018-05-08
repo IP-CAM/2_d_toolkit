@@ -4,6 +4,7 @@
 ## Simple and elegant component-based UI library
 
 [![Build Status][travis-image]][travis-url]
+[![MIT License][license-image]][license-url]
 [![Riot Forum][riot-forum-image]][riot-forum-url]
 [![Join the chat at https://gitter.im/riot/riot][gitter-image]][gitter-url]
 [![Join the chat (ja) at https://riot-jp-slackin.herokuapp.com/][slack-ja-image]][slack-ja-url]
@@ -11,8 +12,9 @@
 
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
-[![MIT License][license-image]][license-url]
+[![jsDelivr Hits][jsdelivr-image]][jsdelivr-url]
 [![Coverage Status][coverage-image]][coverage-url]
+![Riot Size][lib-size]
 [![Code Quality][codeclimate-image]][codeclimate-url]
 
 [![Sauce Test Status][saucelabs-image]][saucelabs-url]
@@ -21,15 +23,17 @@
 
 | Framework                                      | Version         | Minified Size (gzip) |
 |------------------------------------------------|-----------------|----------------------|
-| Angular                                        | 4.1.3           | 237.41kb             |
-| Ember                                          | 2.13.3          | 129.89kb             |
+| Ember                                          | 2.18.2          | 121.84kb             |
+| @angular/core + Polyfills                      | 5.2.9           | 91.06kb              |
 | Polymer + Web Components Polyfill Lite         | 1.8.0           | 66.3kb               |
-| React                                          | 15.5.4          | 46.45kb              |
+| React + Map and Set Polyfills                  | 16.1.0          | 43.25kb              |
 | Web Components Polyfill                        | 0.7.24          | 33.68kb              |
-| Vue                                            | 2.3.4           | 28.90kb              |
-| __Riot__                                       | 3.6.1           | 10.43kb              |
-| Inferno                                        | 3.6.1           | 9.18kb               |
-| Preact                                         | 8.1.0           | 3.33kb               |
+| Vue                                            | 2.5.16          | 31.64kb              |
+| __Riot__                                       | 3.9.5           | 10.69kb              |
+| Inferno                                        | 5.0.1           | 8.01kb               |
+| Preact                                         | 8.2.7           | 3.45kb               |
+
+The above comparison includes polyfills to support old browsers like IE9 that in Riot.js is supported by default
 
 ### Browsers support
 
@@ -104,7 +108,7 @@ HTML syntax is the de facto language on the web and it's designed for building u
 - Event normalization.
 - The rendered DOM can be freely manipulated with other tools.
 - No extra HTML root elements or `data-` attributes.
-- Plays well with jQuery.
+- Plays well with any frontend framework.
 
 
 ### Use your dearest language and tools
@@ -128,6 +132,7 @@ HTML syntax is the de facto language on the web and it's designed for building u
 
 ### Demos
 - [**Riot Examples** - Community's Official](https://github.com/riot/examples)
+- [**Riot Animore** - Official Tags Animations Library](https://github.com/riot/animore)
 - [Riot Todo MVC](http://todomvc.com/examples/riotjs/)
 - [Hackernews reader](http://git.io/riot-hn)
 - [Vuejs examples by Riotjs](https://github.com/txchen/feplay/tree/gh-pages/riot_vue)
@@ -135,7 +140,7 @@ HTML syntax is the de facto language on the web and it's designed for building u
 - [Timer](http://jsfiddle.net/gnumanth/h9kuozp5/)
 - [Another flux demo comparable to React ones](http://txchen.github.io/feplay/riot_flux)
 - [Various experiments](http://richardbondi.net/programming/riot)
-- [Isomorphic application](https://github.com/ListnPlay/riot-isomorphic)
+- [Isomorphic application](https://github.com/Avnerus/riot-isomorphic)
 - [Isomorphic proof of concept](https://github.com/PabloSichert/isomorphic-proof-of-concept)
 - [flux-riot todo](http://mingliangfeng.me/flux-riot)
 - [Another Riot Todo MVC](http://nippur72.github.io/riotjs-todomvc/#/)
@@ -146,6 +151,9 @@ HTML syntax is the de facto language on the web and it's designed for building u
 - [Riot Seed project - webpack, routing, ava tests, dispatcher](https://github.com/continuata/riot-seed)
 - [Riot-Redux League Table example](https://github.com/drewmiley/PoolLeague)
 - [Riot vs React vs Ractive Counters using Redux store](https://github.com/drewmiley/ractive-react-riot-redux-counters-example)
+
+### Books
+- [Building Apps with Riot](https://bleedingedgepress.com/building-apps-with-riot/)
 
 ### Tutorials
 - [Building Apps with Riot, ES6 and Webpack](http://blog.srackham.com/posts/riot-es6-webpack-apps/)
@@ -177,12 +185,13 @@ HTML syntax is the de facto language on the web and it's designed for building u
 
 ### Libraries / Frameworks
 - [Flux- like event controller for Riot](https://github.com/jimsparkman/RiotControl)
-- [riotux - Simple Event Controller for Riot.js](https://github.com/luisvinicius167/riotux)
 - [flux-riot framework](https://github.com/mingliangfeng/flux-riot)
 - [Cheftjs - chinese framework for Riot](https://github.com/cheft/cheftjs)
 - [Veronica - flux adaption for Riot](https://www.npmjs.com/package/veronica-x)
 - [Minimal Flux dispatcher pattern](https://gist.github.com/continuata/c605846751c09a5e94d12ae8c91cbf05)
 - [riot-format: a format library for riotjs, like angular $filter](https://github.com/joylei/riot-format)
+- [riot-view-router: a simple state based router mixin](https://github.com/neetjn/riot-view-router)
+- [riotx - Centralized State Management for riot.js](https://github.com/cam-inc/riotx)
 
 ### Components
 - [Material UI](http://kysonic.github.io/riot-mui/)
@@ -275,7 +284,7 @@ $ make raw
 # To build anytime you change a src file
 $ make watch
 
-# To bench riot ( it requires ctrl+c to exit )
+# To bench riot
 $ make perf
 ```
 
@@ -291,35 +300,10 @@ It's actively maintained by:
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top">
-        <img width="125" height="125" src="https://github.com/rsbondi.png?s=125">
-        <br>
-        <a href="https://github.com/rsbondi">Richard Bondi</a>
-      </td>
-      <td align="center" valign="top">
+      <td valign="top">
         <img width="125" height="125" src="https://github.com/GianlucaGuarini.png?s=125?s=125">
         <br>
         <a href="https://github.com/GianlucaGuarini">Gianluca Guarini</a>
-      </td>
-      <td align="center" width="20%" valign="top">
-        <img width="125" height="125" src="https://github.com/cognitom.png?s=125">
-        <br>
-        <a href="https://github.com/cognitom">Tsutomu Kawamura</a>
-      </td>
-      <td align="center" valign="top">
-        <img width="125" height="125" src="https://github.com/aMarCruz.png?s=125">
-        <br>
-        <a href="https://github.com/aMarCruz">Alberto Martínez</a>
-      </td>
-      <td align="center" valign="top">
-        <img width="125" height="125" src="https://github.com/rogueg.png?s=125">
-        <br>
-        <a href="https://github.com/rogueg">Grant Marvin</a>
-      </td>
-      <td align="center" valign="top">
-        <img width="125" height="125" src="https://github.com/tipiirai.png?s=125">
-        <br>
-        <a href="https://github.com/tipiirai">Tero Piirainen</a>
       </td>
      </tr>
   </tbody>
@@ -367,11 +351,14 @@ Become a sponsor to get your logo on our README. [Become a sponsor][support-url]
 [slack-ja-image]:https://img.shields.io/badge/SLACK_(ja)-JOIN_CHAT_%E2%86%92-551a8b.svg?style=flat-square
 [slack-ja-url]:https://riot-jp-slackin.herokuapp.com/
 
-[codeclimate-image]:https://img.shields.io/codeclimate/github/riot/riot.svg?style=flat-square
+[codeclimate-image]:https://api.codeclimate.com/v1/badges/b81ddf3c77e8189876da/maintainability
 [codeclimate-url]:https://codeclimate.com/github/riot/riot
 
 [donations-campaign-url]:https://pledgie.com/campaigns/31139
 [donations-campaign-image]:https://pledgie.com/campaigns/31139.png?skin_name=chrome
+
+[jsdelivr-image]: https://data.jsdelivr.com/v1/package/npm/riot/badge
+[jsdelivr-url]: https://www.jsdelivr.com/package/npm/riot
 
 
 [backer-url]: #backers
@@ -380,6 +367,8 @@ Become a sponsor to get your logo on our README. [Become a sponsor][support-url]
 [sponsor-badge]: https://opencollective.com/riot/sponsors/badge.svg?color=blue
 
 [support-url]: https://opencollective.com/riot#support
+
+[lib-size]: http://img.badgesize.io/https://unpkg.com/riot/riot.min.js?compression=gzip
 
 [backers-image]: https://opencollective.com/riot/backers.svg
 [sponsors-image]: https://opencollective.com/riot/sponsors.svg

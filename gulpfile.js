@@ -8,7 +8,7 @@ var gulp           = require('gulp'),
 gulp.task('browser-sync', function() {
     browserSync({
         proxy: "localhost",
-        notify: false
+        notify: true
     });
 });
 // will compille styles in dark and light folders
@@ -24,6 +24,7 @@ gulp.task('sass', function () {
 gulp.task('watch', ['sass', 'browser-sync'], function() {
     gulp.watch('admin/view/stylesheet/d_admin_style/themes/**/styles.scss', ['sass']);
     gulp.watch('admin/view/stylesheet/d_admin_style/core/**/*.scss', ['sass']);
+    gulp.watch('admin/view/template/extension/module/**/*.twig', browserSync.reload);
 });
 
 gulp.task('default', ['watch']);

@@ -2,9 +2,10 @@
 
 class ModelExtensionDAdminStyleStyle extends Model {
 
-    public function getStyles($theme_name){
+    public function getAdminStyle($theme_name){
         $this->document->addStyle('view/stylesheet/d_admin_style/core/normalize/normalize.css');
         $this->document->addStyle('view/stylesheet/d_admin_style/themes/'.$theme_name.'/styles.css');
+
     }
     public function getAvailableThemes(){
         $dir = DIR_APPLICATION . 'view/stylesheet/d_admin_style/themes';

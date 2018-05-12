@@ -14,17 +14,17 @@ button + button {
 #cancel-button {
   margin-left: 3px;
 }
-
 // B-SWITCH
 .bootstrap-switch {
-  border: none;
-
+  border: 2px solid #dbdfef;
+  border-radius: 5px;
   .bootstrap-switch-handle-on.bootstrap-switch-success,
   .bootstrap-switch-handle-off.bootstrap-switch-success {
-    background: #43ebab;
-    border-color: #43ebab;
-    color: #1f2338;
+    background: $green ;
+    border-color: $green;
+    color: $color;
   }
+
 }
 
 // B-TAGS-INPUT

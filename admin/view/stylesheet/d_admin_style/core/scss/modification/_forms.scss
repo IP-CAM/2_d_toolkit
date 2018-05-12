@@ -19,10 +19,6 @@
   padding-top: 15px;
 }
 
-.form-group + .form-group {
-  border-top: 1px solid rgba($border_color, 0.7);
-}
-
 .form-group .bootstrap-switch .bootstrap-switch-handle-off,.form-group .bootstrap-switch .bootstrap-switch-handle-on,.form-group .bootstrap-switch .bootstrap-switch-label{
   display: inline-flex !important;
 }

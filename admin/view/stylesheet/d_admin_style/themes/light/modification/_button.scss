@@ -16,7 +16,6 @@ button + button {
 // B-SWITCH
 .bootstrap-switch {
   border: 2px solid $border_color;
-  border-radius:0;
   .bootstrap-switch-handle-on.bootstrap-switch-success,
   .bootstrap-switch-handle-off.bootstrap-switch-success {
     background: $green ;
@@ -37,4 +36,9 @@ button + button {
   background: #4fb5e7;
   border: 2px solid #3aa5da;
   color: #fff;
+}
+.panel-default .panel-body [data-toggle="tooltip"]::after,
+.modal-dialog [data-toggle="tooltip"]::after {
+  margin-left: 8px;
+  color: #999999;
 }

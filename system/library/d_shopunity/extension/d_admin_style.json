@@ -1,6 +1,6 @@
 {
   "codename": "d_admin_style",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "Admin Style",
   "description": "Admin style: dark or light.",
   "author": {
@@ -46,6 +46,9 @@
   ],
   "changelog": [
     {
+      "version":"1.0.3",
+      "change": "Change view for navigation panel fix switch buttons"
+    }, {
       "version":"1.0.2",
       "change": "Add add fixes for soc_login"
     },

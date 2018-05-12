@@ -5,50 +5,42 @@
     font-size: 18px;
     font-weight: bold;
     line-height: 1.5;
-    color:  $nav-color;// #b0b1b8;
+    color: $nav-color; // #b0b1b8;
   }
-
   & > li {
     display: inline-block;
     padding: 0;
     & > a {
-      padding-top: 5px;
-      padding-bottom: 5px;
-      padding-left: 15px;
-      padding-right: 0px;
+      padding: $padding/2;
       @media screen and (min-width: 1200px) {
         & {
           padding-right: 10px;
         }
       }
-
-
       &:hover, &:focus {
         text-decoration: none;
         background-color: $background;
         border-color: $background;
         color: $color;
       }
-
       & > i {
         padding-bottom: 4px;
       }
     }
-
     &.active > a {
       color: $color;
       background-color: $background;
       border: 1px solid transparent;
       & > i, & > span {
         position: relative;
-        &:after{
+        &:after {
           content: "";
           position: absolute;
           display: block;
-          background-color:  $dark_blue;
-          width:18px;
-          height:3px;
-          bottom: -5px;
+          background-color: $dark_blue;
+          width: 18px;
+          height: 3px;
+          bottom: 0;
           left: 50%;
           transform: translateX(-50%);
         }
@@ -58,7 +50,27 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .b-menu {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+.panel-body{
+  padding-top: 0;
+}
+}
 .nav-tabs {
   padding-bottom: 20px;
   border-bottom: 1px solid $border_color;
+  @media screen and (max-width: 768px) {
+
+    padding: 0;
+    margin: 0;
+      z-index: 11;
+      display: block;
+      li {
+        width: 100%;
+      }
+  }
 }

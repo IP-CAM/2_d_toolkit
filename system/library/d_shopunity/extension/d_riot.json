@@ -1,6 +1,6 @@
 {
     "codename": "d_riot",
-    "version": "3.9.4",
+    "version": "3.10.1",
     "name": "Riot js",
     "description": "Implementation of riotjs http://riotjs.com/",
     "author": {
@@ -42,6 +42,10 @@
         "catalog/view/javascript/d_riot"
     ],
     "changelog": [
+        {
+            "varsion":"3.10.1",
+            "change": "Bug Fixes"
+        },
         {
             "varsion":"3.9.4",
             "change": "Improve: 100% Coverage!, Fixes"

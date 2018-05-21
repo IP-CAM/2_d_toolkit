@@ -12,6 +12,10 @@ class ModelExtensionDAdminStyleStyle extends Model
     {
         $this->document->addStyle('view/stylesheet/d_admin_style/core/normalize/normalize.css');
         $this->document->addStyle('view/stylesheet/d_admin_style/themes/' . $theme_name . '/styles.css');
+        //to do if set bottrapswitch
+        $this->document->addStyle('view/stylesheet/shopunity/bootstrap.css');
+        $this->document->addScript('view/javascript/d_bootstrap_switch/js/bootstrap-switch.min.js');
+        $this->document->addStyle('view/javascript/d_bootstrap_switch/css/bootstrap-switch.css');
 
     }
 

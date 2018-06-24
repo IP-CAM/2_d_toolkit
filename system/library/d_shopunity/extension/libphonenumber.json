@@ -1,6 +1,6 @@
 {
     "codename": "libphonenumber",
-    "version": "8.9.7",
+    "version": "8.9.8",
     "name": "FirePHP debugger",
     "description": "PHP version of Google's phone number handling library",
     "author": {
@@ -41,7 +41,7 @@
     ],
     "changelog": [
         {
-            "varsion":"8.9.7",
+            "varsion":"8.9.8",
             "change": ""
         }
     ]

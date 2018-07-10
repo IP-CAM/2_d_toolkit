@@ -2,5 +2,7 @@
 .nav.nav-tabs>li>a:focus,.nav.nav-tabs>li>a:hover
 {
   background-color: $some_gray;
-  color: #1e91cf;
+}
+.nav-tabs{
+  border-bottom:2px solid $some_gray;
 }

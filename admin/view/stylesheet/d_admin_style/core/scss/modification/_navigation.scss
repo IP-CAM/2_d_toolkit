@@ -5,7 +5,7 @@
     font-size: 18px;
     font-weight: bold;
     line-height: 1.5;
-    color: $nav-color; // #b0b1b8;
+    color: $nav-color;
   }
   & > li {
     display: inline-block;
@@ -44,6 +44,29 @@
           left: 50%;
           transform: translateX(-50%);
         }
+      }
+
+    }
+  }
+  &#language{
+
+    li{
+      border-radius:4px;
+      border: 2px solid #3aa5da;
+      &:not(:first-child){
+        margin:0 10px;
+      }
+      a{
+        padding: 8px 20px;
+        font-size: 13px;
+        line-height: 1.5;
+        font-weight:normal;
+        margin-right:0;
+      }
+      &.active a{
+        box-shadow: none;
+        background: #4fb5e7;
+        color: #fff;
       }
 
     }

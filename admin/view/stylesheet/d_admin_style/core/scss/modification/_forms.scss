@@ -1,6 +1,4 @@
 @import "../variable";
-
-
 .label {
   font-size: 88%;
   margin: 4px;
@@ -15,10 +13,34 @@
   background-color: $warning;
 }
 
-.form-group {
+.panel-body .form-group {
   padding-top: 15px;
+  .form-control{
+    height: 40px;
+    font-size: 15px;
+    border: 2px solid $some_gray;
+    box-shadow: none;
+  }
+  textarea {
+    min-height:100px !important;
+  }
+  select.form-control{
+  }
+}
+.input-group-addon{
+  color: #fff;
+  background: #cfcfcf;
+  border: 2px solid #b1b1b1;
+  &.active,&:focus,&:hover{
+    background: #b1b1b1;
+    border-color:#e9ebf4;
+  }
+
 }
 
-.form-group .bootstrap-switch .bootstrap-switch-handle-off,.form-group .bootstrap-switch .bootstrap-switch-handle-on,.form-group .bootstrap-switch .bootstrap-switch-label{
-  display: inline-flex !important;
+.input-group-addon ~ .form-control{
+  border: 2px solid #b1b1b1 !important;
+}
+.input-group{
+  margin-bottom:15px;
 }

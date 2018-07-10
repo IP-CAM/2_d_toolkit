@@ -14,20 +14,63 @@ button + button {
 #cancel-button {
   margin-left: 3px;
 }
+
 // B-SWITCH
 .bootstrap-switch {
-  border: 2px solid #dbdfef;
+  border: 2px solid #dbdfef !important;
   border-radius: 5px;
   .bootstrap-switch-handle-on.bootstrap-switch-success,
   .bootstrap-switch-handle-off.bootstrap-switch-success {
-    background: $green ;
+    background: $green;
     border-color: $green;
-    color: $color;
   }
-
 }
 
 // B-TAGS-INPUT
 .bootstrap-tagsinput {
   width: 100%;
+}
+
+.btn{
+  table & ,&.popup-extension{
+    padding: 8px 13px !important;
+  }
+}
+.panel-default {
+  .btn{
+    &:not(.note-btn){
+      padding: 8px 30px;
+    }
+    border-radius: 4px;
+    font-size: 15px;
+    &-default {
+      color: #fff;
+      background: #cfcfcf;
+      border: 2px solid #b1b1b1;
+      &.active,&:focus,&:hover{
+        background: #b1b1b1;
+        border-color:#9d9d9d;
+      }
+    }
+    &-info{
+      color: #000;
+      background: #d9dcec;
+      border: 2px solid #c2cde2;
+      &.active,&:focus,&:hover{
+        background: #c6cce4;
+        border-color:#acbcd9;
+      }
+    }
+    &-danger {
+      color: #fff;
+      background: #cf4949;
+      border: 2px solid #b33131;
+    }
+    &-primary {
+      box-shadow: none;
+      background: #4fb5e7;
+      border: 2px solid #3aa5da;
+      color: #fff;
+    }
+  }
 }

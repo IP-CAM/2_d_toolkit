@@ -1,8 +1,7 @@
 @import "../variable";
-
-.panel {
+.panel{
   background-color: $background;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   color: $color;
   .panel-body {
     position: relative;
@@ -13,7 +12,9 @@
     background: $heading_background;
     border-color: $border_color;
     color: $color;
-    display: flex;
+    &:not(.note-toolbar){
+      display: flex;
+    }
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;

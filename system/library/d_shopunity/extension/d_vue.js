@@ -1,7 +1,7 @@
 {
     "codename": "d_vue",
     "version": "2.5.16",
-    "name": "Vue",
+    "name": "Vue js",
     "description": "Implementation of vuejs https://vuejs.org/",
     "author": {
         "name": "Shopunity",

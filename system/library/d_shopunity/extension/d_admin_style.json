@@ -45,7 +45,8 @@
     "admin/view/stylesheet/d_admin_style/core/welcome.css",
     "admin/view/stylesheet/d_admin_style/themes/dark/styles.css",
     "admin/view/stylesheet/d_admin_style/themes/light/styles.css",
-    "admin/view/stylesheet/d_admin_style/themes/default/styles.css"
+    "admin/view/stylesheet/d_admin_style/themes/default/styles.css",
+    "admin/view/template/partial/welcome.twig"
   ],
   "changelog": [
     {

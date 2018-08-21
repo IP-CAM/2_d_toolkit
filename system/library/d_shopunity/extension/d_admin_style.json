@@ -1,6 +1,6 @@
 {
   "codename": "d_admin_style",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "name": "Admin Style",
   "description": "Admin style: dark or light.",
   "author": {
@@ -47,6 +47,14 @@
     "admin/view/stylesheet/d_admin_style/themes/default/styles.css"
   ],
   "changelog": [
+    {
+      "version": "1.0.5",
+      "change": "Add welcome functionality."
+    },
+    {
+      "version": "1.0.4",
+      "change": "fixing many issues with modules (blog, social, checkout7,visual designer, ajax_filter) pavel 7/10/2018 2:55 PM "
+    },
     {
       "version": "1.0.3",
       "change": "Change view for navigation panel fix switch buttons"

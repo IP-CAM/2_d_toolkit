@@ -49,16 +49,15 @@ gulp.task('sass_multi', function () {
 	});
 	return tasks;
 });
-gulp.task('sass_light', function () {
-	return gulp.src(path.join(style_folders, 'light', 'light' + '.s*ss'))
+gulp.task('sass_welcome', function () {
+	return gulp.src(sassDest+'/core/welcome.scss')
 		.pipe(sourcemaps.init())
 		.pipe(sass({outputStyle: "compressed"}).on("error", sass.logError))
 		.pipe(autoprefixer({
 			browsers: ["last 15 versions"]
 		}))
 		.pipe(sourcemaps.write("./"))
-		.pipe(gulp.dest(style_folders + 'light'))
-		.pipe(browserSync.reload({stream: true}));
+		.pipe(gulp.dest(sassDest+'/core'))
 
 })
 gulp.task("sass:watch", function () {

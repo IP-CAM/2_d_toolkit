@@ -15,7 +15,7 @@ class ModelExtensionDAdminStyleStyle extends Model
         $this->document->addStyle('view/javascript/d_bootstrap_switch/css/bootstrap-switch.css');
         //todo add only on ie
         $this->document->addStyle('view/stylesheet/d_admin_style/core/normalize/normalize.css');
-        $this->document->addStyle('view/stylesheet/d_admin_style/themes/' . $theme_name . '/'.$theme_name.'.css');
+        $this->document->addStyle('view/stylesheet/d_admin_style/themes/' . $theme_name . '/' . $theme_name . '.css');
 
     }
 
@@ -32,4 +32,12 @@ class ModelExtensionDAdminStyleStyle extends Model
         $data['entry_admin_style'] = $this->language->get('entry_admin_style');
         return $data;
     }
+
+    public function getWelcomeView($route, $data)
+    {
+        $this->document->addStyle('view/stylesheet/d_admin_style/core/welcome.css');
+        $data['header'] = $this->load->controller('common/header');
+        return $this->load->view('partial/welcome', $data);
+    }
+
 }

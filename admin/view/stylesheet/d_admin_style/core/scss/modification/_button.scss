@@ -8,7 +8,8 @@ button {
 }
 
 button + button {
-  margin-left: 3px;
+  //fixing top btn
+  //margin-left: 3px;
 }
 
 #cancel-button {
@@ -17,8 +18,9 @@ button + button {
 
 // B-SWITCH
 .bootstrap-switch {
-  border: 2px solid #dbdfef !important;
-  border-radius: 5px;
+  //border: 2px solid #dbdfef !important;
+  //border-radius: 5px;
+  border: 2px solid $border_color;
   .bootstrap-switch-handle-on.bootstrap-switch-success,
   .bootstrap-switch-handle-off.bootstrap-switch-success {
     background: $green;
@@ -54,10 +56,10 @@ button + button {
     }
     &-info{
       color: #000;
-      background: #d9dcec;
-      border: 2px solid #c2cde2;
+      background: $info-color;
+      border: $info-border;
       &.active,&:focus,&:hover{
-        background: #c6cce4;
+        background: $info-hover-color;
         border-color:#acbcd9;
       }
     }
@@ -73,4 +75,8 @@ button + button {
       color: #fff;
     }
   }
+}
+.input-group-addon:last-child{
+  border-bottom-left-radius:0;
+  border-top-left-radius:0;
 }

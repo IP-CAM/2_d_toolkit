@@ -14,7 +14,7 @@ button + button {
 }
 
 // B-SWITCH
-.bootstrap-switch {
+.bootstrap-switch.bootstrap-switch.bootstrap-switch {
   border: 2px solid $border_color;
   .bootstrap-switch-handle-on.bootstrap-switch-success,
   .bootstrap-switch-handle-off.bootstrap-switch-success {
@@ -30,12 +30,6 @@ button + button {
 // B-TAGS-INPUT
 .bootstrap-tagsinput {
   width: 100%;
-}
-.panel-default .panel-body .btn-primary,.panel-default .btn-default, .modal-dialog .btn-primary{
-  box-shadow: none;
-  background: #4fb5e7;
-  border: 2px solid #3aa5da;
-  color: #fff;
 }
 .panel-default .panel-body [data-toggle="tooltip"]::after,
 .modal-dialog [data-toggle="tooltip"]::after {

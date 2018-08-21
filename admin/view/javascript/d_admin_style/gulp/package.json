@@ -17,14 +17,15 @@
   },
   "homepage": "https://github.com/Dreamvention/2_d_social_share#readme",
   "devDependencies": {
-    "gulp-concat": "^2.6.1",
-    "gulp-riot": "^1.1.4",
-    "gulp-sass": "^3.1.0",
-    "browser-sync": "^2.15.0",
+    "browser-sync": "2.24.5",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean-css": "^2.0.12",
-    "gulp-uglify": "^3.0.0"
+    "gulp-concat": "^2.6.1",
+    "gulp-riot": "^1.1.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1"
   },
   "dependencies": {}
 }

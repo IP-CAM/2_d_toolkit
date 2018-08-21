@@ -42,6 +42,7 @@
     "admin/model/extension/d_admin_style/style.php",
     "admin/language/en-gb/extension/d_admin_style/style.php",
     "admin/view/stylesheet/d_admin_style/core/normalize/normalize.css",
+    "admin/view/stylesheet/d_admin_style/core/welcome.css",
     "admin/view/stylesheet/d_admin_style/themes/dark/styles.css",
     "admin/view/stylesheet/d_admin_style/themes/light/styles.css",
     "admin/view/stylesheet/d_admin_style/themes/default/styles.css"
@@ -49,7 +50,7 @@
   "changelog": [
     {
       "version": "1.0.5",
-      "change": "Add welcome functionality."
+      "change": "Add welcome functionality in admin style.; Add Vuex; Add lodash; "
     },
     {
       "version": "1.0.4",

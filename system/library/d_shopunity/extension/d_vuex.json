@@ -1,8 +1,8 @@
 {
-    "codename": "d_vue",
-    "version": "2.5.16",
-    "name": "Vue js",
-    "description": "Implementation of vuejs https://vuejs.org/",
+    "codename": "d_vuex",
+    "version": "3.0.1",
+    "name": "vuex js",
+    "description": "Implementation of vuexjs https://vuex.vuejs.org",
     "author": {
         "name": "Shopunity",
         "email": "info@shopunity.com",
@@ -35,15 +35,15 @@
         "url": "https://shopunity.net/"
     },
     "files": [
-        "system/library/d_shopunity/extension/d_vue.json"
+        "system/library/d_shopunity/extension/d_vuex.json"
     ],
     "dirs": [
-        "admin/view/javascript/d_vue",
-        "catalog/view/javascript/d_vue"
+        "admin/view/javascript/d_vuex",
+        "catalog/view/javascript/d_vuex"
     ],
     "changelog": [
         {
-            "varsion":"2.5.16",
+            "varsion":"3.0.1",
             "change": ""
         }
     ]

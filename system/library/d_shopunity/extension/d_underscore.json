@@ -1,8 +1,8 @@
 {
-    "codename": "d_vuex",
-    "version": "3.0.1",
-    "name": "vuex js",
-    "description": "Implementation of vuexjs https://vuex.vuejs.org",
+    "codename": "d_underscore",
+    "version": "1.9.1",
+    "name": "underscore js",
+    "description": "Implementation of underscorejs https://underscorejs.org/",
     "author": {
         "name": "Shopunity",
         "email": "info@shopunity.com",
@@ -35,15 +35,15 @@
         "url": "https://shopunity.net/"
     },
     "files": [
-        "system/library/d_shopunity/extension/d_vuex.json"
+        "system/library/d_shopunity/extension/d_underscore.json"
     ],
     "dirs": [
-        "admin/view/javascript/d_vuex",
-        "catalog/view/javascript/d_vuex"
+        "admin/view/javascript/d_underscore",
+        "catalog/view/javascript/d_underscore"
     ],
     "changelog": [
         {
-            "varsion":"3.0.1",
+            "varsion":"2.5.16",
             "change": ""
         }
     ]

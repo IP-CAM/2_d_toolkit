@@ -1,0 +1,50 @@
+{
+    "codename": "d_vuex",
+    "version": "3.0.1",
+    "name": "vuex js",
+    "description": "Implementation of vuexjs https://vuex.vuejs.org",
+    "author": {
+        "name": "Shopunity",
+        "email": "info@shopunity.com",
+        "url": "https://shopunity.net/"
+    },
+    "opencart_version": [
+        "2.0.0.0",
+        "2.0.1.0",
+        "2.0.1.1",
+        "2.0.2.0",
+        "2.0.3.1",
+        "2.1.0.1",
+        "2.1.0.2",
+        "2.2.0.0",
+        "2.3.0.0",
+        "2.3.0.1",
+        "2.3.0.2",
+        "3.0.0.0",
+        "3.0.1.1",
+        "3.0.1.2",
+        "3.0.2.0"
+    ],
+    "type": "library",
+    "license": {
+        "type": "free",
+        "url": "https://shopunity.net/licenses/free"
+    },
+    "support": {
+        "email": "support@shopunity.com",
+        "url": "https://shopunity.net/"
+    },
+    "files": [
+        "system/library/d_shopunity/extension/d_vuex.json"
+    ],
+    "dirs": [
+        "admin/view/javascript/d_vuex",
+        "catalog/view/javascript/d_vuex"
+    ],
+    "changelog": [
+        {
+            "varsion":"3.0.1",
+            "change": ""
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "codename": "d_vue_router",
-    "version": "3.0.1",
+    "version": "2.5.16",
     "name": "Vue js",
     "description": "Implementation of vuejsrouter https://router.vuejs.org/",
     "author": {

@@ -43,6 +43,9 @@ a#button-menu{
   padding: 20px;
   height: 130px;
   text-align: center;
+  img{
+    max-height:100%;
+  }
 }
 
 .welcome-features-text {

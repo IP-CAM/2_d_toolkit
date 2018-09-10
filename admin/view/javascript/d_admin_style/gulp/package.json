@@ -4,6 +4,7 @@
   "description": "Install extension with a click of a button.",
   "main": "gulpfile.js",
   "scripts": {
+    "run": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -67,8 +67,8 @@ gulp.task("sass:watch", function () {
 
 gulp.task("browser_sync_init", function () {
 	browserSync({
-		// proxy: process.env.HOST
-		proxy: 'http://localhost/302/d_toolkit/',
+		proxy: process.env.HOST
+		// proxy: 'http://localhost/302/d_toolkit/',
 
 	});
 });

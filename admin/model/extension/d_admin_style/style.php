@@ -13,7 +13,7 @@ class ModelExtensionDAdminStyleStyle extends Model
         $this->document->addStyle('view/stylesheet/d_bootstrap_extra/bootstrap.css');
         $this->document->addScript('view/javascript/d_bootstrap_switch/js/bootstrap-switch.min.js');
         $this->document->addStyle('view/javascript/d_bootstrap_switch/css/bootstrap-switch.css');
-        //todo add only on ie
+        //todo add only on ie asdasdssd
         $this->document->addStyle('view/stylesheet/d_admin_style/core/normalize/normalize.css');
         $this->document->addStyle('view/stylesheet/d_admin_style/themes/' . $theme_name . '/' . $theme_name . '.css');
 

@@ -44,7 +44,8 @@
     "admin/view/template/partial/welcome.twig"
   ],
   "dirs": [
-    "admin/view/stylesheet/d_admin_style"
+    "admin/view/stylesheet/d_admin_style",
+    "admin/view/image/d_admin_style"
   ],
   "changelog": [
     {

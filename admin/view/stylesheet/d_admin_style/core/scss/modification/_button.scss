@@ -73,6 +73,14 @@ button + button {
       background: #4fb5e7;
       border: 2px solid #3aa5da;
       color: #fff;
+      &:focus,&:hover{
+        background: #27b7fd;
+        border-color:#229cd8;
+      }
+      &:active:focus{
+        background: #1589c1;
+        border-color:#0871a5;
+    }
     }
   }
 }

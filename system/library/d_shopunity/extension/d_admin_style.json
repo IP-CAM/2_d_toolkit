@@ -38,6 +38,8 @@
     "d_bootstrap_switch": ">= 3.3.5"
   },
   "files": [
+    "admin/view/template/extension/d_admin_style/setup.twig",
+    "admin/view/template/extension/d_admin_style",
     "system/library/d_shopunity/extension/d_admin_style.json",
     "admin/model/extension/d_admin_style/style.php",
     "admin/language/en-gb/extension/d_admin_style/style.php",

@@ -5964,3 +5964,5 @@ system/storage/vendor/zoujingli/wechat-php-sdk/Wechat/Lib/Common.php
 system/storage/vendor/zoujingli/wechat-php-sdk/Wechat/Lib/Prpcrypt.php
 system/storage/vendor/zoujingli/wechat-php-sdk/Wechat/Lib/Tools.php
 .vscode/settings.json
+.vscode/tasks.json
+system/storage/

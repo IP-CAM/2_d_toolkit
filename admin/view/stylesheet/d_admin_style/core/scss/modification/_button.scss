@@ -33,14 +33,15 @@ button + button {
   width: 100%;
 }
 
-.btn{
-  table & ,&.popup-extension{
+.btn {
+  table &, &.popup-extension {
     padding: 8px 13px !important;
   }
 }
+
 .panel-default {
-  .btn{
-    &:not(.note-btn){
+  .btn {
+    &:not(.note-btn) {
       padding: 8px 30px;
     }
     border-radius: 4px;
@@ -49,42 +50,70 @@ button + button {
       color: #fff;
       background: #cfcfcf;
       border: 2px solid #b1b1b1;
-      &.active,&:focus,&:hover{
+      &.active, &:focus, &:hover {
         background: #b1b1b1;
-        border-color:#9d9d9d;
+        border-color: #9d9d9d;
       }
     }
-    &-info{
+    &-info {
       color: #000;
       background: $info-color;
       border: $info-border;
-      &.active,&:focus,&:hover{
-        background: $info-hover-color;
-        border-color:#acbcd9;
+      &.active, &:focus, &:hover {
+        background: #c6cce4;
+        border-color: #acbcd9;
+      }
+      &:active:focus {
+        color: #000;
+        background: #abb2d8;
+        border-color: #93a6c9;
       }
     }
     &-danger {
       color: #fff;
       background: #cf4949;
       border: 2px solid #b33131;
+      &:focus, &:hover {
+        background: #da3d3d;
+        border-color: #bf1f1f;
+      }
+      &:active:focus {
+        background: #a12929;
+        border-color: #bc3a3a;
+      }
     }
     &-primary {
       box-shadow: none;
       background: #4fb5e7;
       border: 2px solid #3aa5da;
       color: #fff;
-      &:focus,&:hover{
+      &:focus, &:hover {
         background: #27b7fd;
-        border-color:#229cd8;
+        border-color: #229cd8;
       }
-      &:active:focus{
+      &:active:focus {
         background: #1589c1;
-        border-color:#0871a5;
+        border-color: #0871a5;
+      }
     }
+    &-success {
+      box-shadow: none;
+      background: #86ce99;
+      border: 2px solid #69bd7f;
+      color: #fff;
+      &:focus, &:hover {
+        background: #2cbd53;
+        border-color: #18a03c;
+      }
+      &:active:focus {
+        background: #4faf68;
+        border-color: #309c4c;
+      }
     }
   }
 }
-.input-group-addon:last-child{
-  border-bottom-left-radius:0;
-  border-top-left-radius:0;
+
+.input-group-addon:last-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
 }

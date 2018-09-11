@@ -14,35 +14,33 @@
   background-color: $warning;
 }
 
-.panel-body .form-group {
-  padding-top: 15px;
+.panel-body {
   .form-control{
     height: 41px; //fix for height
     font-size: 15px;
-    border: 2px solid $some_gray;
     box-shadow: none;
+    border: 2px solid #cfd7e7;
+    &.active,&:hover{
+      border-color:#cfd7e7;
+    }
+    &:active:focus,&:focus{
+      border-color:#9eaecb;
+      ~ .input-group-addon{
+        border-color:#9eaecb;
+      }
+    }
+  }
+  .input-group-addon{
+    border-width:2px;
+    border-color:#cfd7e7;
   }
   textarea {
-    min-height:100px !important;
+    min-height:auto !important;
   }
   select.form-control{
   }
-}
-.input-group-addon{
-  color: #fff;
-  background: #cfcfcf;
-  border: 2px solid #b1b1b1;
-  &.active,&:focus,&:hover{
-    background: #b1b1b1;
-    border-color:#e9ebf4;
+  .form-group {
+    padding-top: 15px;
+
   }
-
-}
-
-.input-group-addon ~ .form-control{
-  border: 2px solid #b1b1b1 !important;
-}
-.input-group{
-  margin-bottom:15px;
-
 }

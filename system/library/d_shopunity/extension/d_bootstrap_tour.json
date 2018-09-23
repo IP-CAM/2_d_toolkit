@@ -1,5 +1,5 @@
 {
-    "codename": "d_brootstap_tour",
+    "codename": "d_bootstrap_tour",
     "version": "1.0.0",
     "name": "Bootstrap tour",
     "description": "Quick and easy product tours with Twitter Bootstrap Popovers",
@@ -36,7 +36,7 @@
         "url": "https:/dreamvention.com/support"
     },
     "files": [
-        "systeam/library/d_shopunity/extension/d_brootstap_tour.json"
+        "systeam/library/d_shopunity/extension/d_bootstrap_tour.json"
     ],
     "dir" : [
         "admin/view/javascript/d_bootstrap_tour",

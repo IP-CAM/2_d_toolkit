@@ -1,6 +1,6 @@
 {
     "codename": "d_bootstrap_tour",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "Bootstrap tour",
     "description": "Quick and easy product tours with Twitter Bootstrap Popovers",
     "author": {
@@ -42,6 +42,10 @@
         "catalog/view/javascript/d_bootstrap_tour"
     ],
     "changelog": [
+        {
+            "version": "1.0.2",
+            "change": "downgraded to 0.11.0 because of flash issue."
+        },
         {
             "version": "1.0.1",
             "change": "downgraded to 0.12.0 because of master issue."

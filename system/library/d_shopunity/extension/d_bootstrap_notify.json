@@ -1,6 +1,6 @@
 {
     "codename": "d_bootstrap_notify",
-    "version": "3.1.3",
+    "version": "3.1.4",
     "name": "Bootstrap Notify",
     "description": "This plugin helps to turn standard bootstrap alerts into growl like notifications.",
     "author": {
@@ -23,7 +23,8 @@
         "3.0.0.0",
         "3.0.1.1",
         "3.0.1.2",
-        "3.0.2.0"
+        "3.0.2.0",
+        "3.0.3.1"
     ],
     "type": "library",
     "license": {
@@ -42,6 +43,10 @@
         "catalog/view/javascript/d_bootstrap_notify"
     ],
     "changelog": [
+        {
+            "version": "3.1.4",
+            "change": "Added support OC v3.0.3.1"
+        },
         {
             "version": "3.1.3",
             "change": ""

@@ -1,6 +1,6 @@
 {
     "codename": "vqmod",
-    "version": "2.6.5",
+    "version": "2.6.6",
     "name": "Vqmod",
     "description": "Vqmod installer",
     "author": {
@@ -23,7 +23,8 @@
         "3.0.0.0",
         "3.0.1.1",
         "3.0.1.2",
-        "3.0.2.0"
+        "3.0.2.0",
+        "3.0.3.1"
     ],
     "install": {
         "php": "system/library/d_shopunity/install/vqmod.php"
@@ -49,6 +50,10 @@
         "vqmod/install"
     ],
     "changelog": [
+        {
+            "varsion":"2.6.6",
+            "change": "Added support OC v3.0.3.1"
+        },
         {
             "varsion":"2.6.5",
             "change": "Added support for opencart 3.x"

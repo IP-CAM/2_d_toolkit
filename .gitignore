@@ -4246,7 +4246,6 @@ system/helper/utf8.php
 system/library/cache.php
 system/library/config.php
 system/library/d_shortcode_reader_writer.php
-system/library/d_simple_html_dom.php
 system/library/db.php
 system/library/document.php
 system/library/encryption.php
@@ -4313,7 +4312,6 @@ system/library/d_shopunity/extension/d_elfinder.json
 system/library/d_shopunity/extension/d_event_manager.json
 system/library/d_shopunity/extension/d_opencart_patch.json
 system/library/d_shopunity/extension/d_shopunity.json
-system/library/d_shopunity/extension/d_simple_html_dom.json
 system/library/d_shopunity/extension/d_twig_manager.json
 system/library/d_shopunity/extension/d_twig_partial.json
 system/library/d_shopunity/extension/d_visual_designer.json

@@ -1,6 +1,6 @@
 {
     "codename": "d_simple_html_dom",
-    "version": "2.0.2", 
+    "version": "2.0.1", 
     "name": "Simple HTML DOM",
     "description": "Simple HTML DOM allows to parse the HTML-code with the help of user-friendly jQuery-like selectors.",
    
@@ -42,12 +42,8 @@
     ],
     "changelog": [
         {
-            "version": "2.0.2",
-            "change": "Update simple dom to 1.8.1"
-        },
-        {
             "version": "2.0.1",
-            "change": "Added supported version oc v 3.0.3.1"
+            "change": "Added supported version oc v 3.0.3.1 and Update simple dom to 1.8.1"
         },
         {
             "version": "2.0.0",

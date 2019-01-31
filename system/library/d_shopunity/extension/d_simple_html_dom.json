@@ -1,6 +1,6 @@
 {
     "codename": "d_simple_html_dom",
-    "version": "2.0.2",
+    "version": "2.0.2", 
     "name": "Simple HTML DOM",
     "description": "Simple HTML DOM allows to parse the HTML-code with the help of user-friendly jQuery-like selectors.",
    

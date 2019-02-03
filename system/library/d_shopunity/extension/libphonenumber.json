@@ -1,6 +1,6 @@
 {
     "codename": "libphonenumber",
-    "version": "8.9.9",
+    "version": "8.10.4",
     "name": "FirePHP debugger",
     "description": "PHP version of Google's phone number handling library",
     "author": {
@@ -41,6 +41,10 @@
         "system/library/libphonenumber"
     ],
     "changelog": [
+        {
+            "varsion":"8.10.4",
+            "change": "Updated library to version 8.10.4"
+        },
         {
             "varsion":"8.9.9",
             "change": "Added support OC v3.0.3.1"

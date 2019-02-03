@@ -14,7 +14,7 @@
 return array (
   'generalDesc' => 
   array (
-    'NationalNumberPattern' => '[2589]\\d{9}',
+    'NationalNumberPattern' => '(?:242|[58]\\d\\d|900)\\d{7}',
     'PossibleLength' => 
     array (
       0 => 10,
@@ -50,7 +50,7 @@ return array (
   ),
   'tollFree' => 
   array (
-    'NationalNumberPattern' => '242300\\d{4}|8(?:00|33|44|55|66|77|88)[2-9]\\d{6}',
+    'NationalNumberPattern' => '(?:242300|8(?:00|33|44|55|66|77|88)[2-9]\\d\\d)\\d{4}',
     'ExampleNumber' => '8002123456',
     'PossibleLength' => 
     array (
@@ -145,8 +145,7 @@ return array (
   ),
   'id' => 'BS',
   'countryCode' => 1,
-  'internationalPrefix' => '011?',
-  'preferredInternationalPrefix' => '011',
+  'internationalPrefix' => '011',
   'nationalPrefix' => '1',
   'nationalPrefixForParsing' => '1',
   'sameMobileAndFixedLinePattern' => false,

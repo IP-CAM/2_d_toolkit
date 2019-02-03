@@ -1,13 +1,13 @@
 {
     "codename": "d_browser",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "Browser Php library",
     "description": "A simple php class to detact the browser name and version",
    
     "author": {
-        "name": "Dreamvention",
-        "email": "info@dreamvention.com",
-        "url": "https://dreamvention.com"
+        "name": "Chris Schuld",
+        "email": "chris@chrisschuld.com",
+        "url": "hhttps://github.com/cbschuld/Browser.php"
     },
     "opencart_version": [
         "2.0.0.0",
@@ -41,6 +41,10 @@
         "system/library/d_browser.php"
             ],
     "changelog": [
+        {
+            "version": "1.0.2",
+            "change": "Updated library from github"
+        },
         {
             "version": "1.0.1",
             "change": "Added support OC v3.0.3.1"

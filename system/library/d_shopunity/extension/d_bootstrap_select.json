@@ -1,6 +1,6 @@
 {
     "codename": "d_bootstrap_select",
-    "version": "1.12.5",
+    "version": "1.13.2",
     "name": "Bootstrap Select",
     "description": "Implementation of bootstrap-select https://silviomoreto.github.io/bootstrap-select/",
     "author": {
@@ -43,6 +43,10 @@
         "catalog/view/javascript/d_bootstrap_select"
     ],
     "changelog": [
+        {
+            "varsion":"1.13.2",
+            "change": "Updated libray to v1.13.2"
+        },
         {
             "varsion":"1.12.5",
             "change": "Added support OC v3.0.3.1"

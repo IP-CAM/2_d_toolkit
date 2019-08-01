@@ -1,6 +1,6 @@
 {
     "codename": "d_alertify",
-    "version": "1.11.2",
+    "version": "1.11.3",
     "name": "AlertifyJS",
     "description": "AlertifyJS is a javascript framework for developing pretty browser dialogs and notifications.",
     "author": {
@@ -26,6 +26,10 @@
         "catalog/view/javascript/d_alertify"
     ],
     "changelog": [
+        {
+            "version": "1.11.1",
+            "change": "sem vars"
+        },
         {
             "version": "1.11.2",
             "change": "Added support OC v3.0.3.1"

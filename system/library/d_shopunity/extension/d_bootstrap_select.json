@@ -1,6 +1,6 @@
 {
     "codename": "d_bootstrap_select",
-    "version": "1.13.2",
+    "version": "1.13.3",
     "name": "Bootstrap Select",
     "description": "Implementation of bootstrap-select https://silviomoreto.github.io/bootstrap-select/",
     "author": {
@@ -8,24 +8,7 @@
         "email": "info@shopunity.com",
         "url": "https://silviomoreto.github.io/bootstrap-select/"
     },
-    "opencart_version": [
-        "2.0.0.0",
-        "2.0.1.0",
-        "2.0.1.1",
-        "2.0.2.0",
-        "2.0.3.1",
-        "2.1.0.1",
-        "2.1.0.2",
-        "2.2.0.0",
-        "2.3.0.0",
-        "2.3.0.1",
-        "2.3.0.2",
-        "3.0.0.0",
-        "3.0.1.1",
-        "3.0.1.2",
-        "3.0.2.0",
-        "3.0.3.1"
-    ],
+    "opencart_version": "2-4",
     "type": "library",
     "license": {
         "type": "free",
@@ -44,6 +27,9 @@
     ],
     "changelog": [
         {
+            "varsion":"1.13.3",
+            "change": "sem var"
+        },{
             "varsion":"1.13.2",
             "change": "Updated libray to v1.13.2"
         },

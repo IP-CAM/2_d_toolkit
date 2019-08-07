@@ -1,6 +1,6 @@
 {
     "codename": "d_simple_html_dom",
-    "version": "2.0.1", 
+    "version": "2.0.2",
     "name": "Simple HTML DOM",
     "description": "Simple HTML DOM allows to parse the HTML-code with the help of user-friendly jQuery-like selectors.",
    
@@ -9,24 +9,7 @@
         "email": "info@dreamvention.com",
         "url": "https://dreamvention.com"
     },
-    "opencart_version": [
-        "2.0.0.0",
-		"2.0.1.0",
-        "2.0.1.1",
-        "2.0.2.0",
-        "2.0.3.1",
-        "2.1.0.1",
-        "2.1.0.2",
-        "2.2.0.0",
-		"2.3.0.0",
-		"2.3.0.1",
-        "2.3.0.2",
-		"3.0.0.0",
-        "3.0.1.1",
-        "3.0.1.2",
-        "3.0.2.0",
-        "3.0.3.1"
-    ],
+    "opencart_version": "2-4",
     "type": "library",
     "license": {
         "type": "free",
@@ -41,6 +24,10 @@
 		"system/library/d_simple_html_dom.php"
     ],
     "changelog": [
+        {
+            "version": "2.0.2",
+            "change": "sem var"
+        },
         {
             "version": "2.0.1",
             "change": "Added supported version oc v 3.0.3.1 and Update simple dom to 1.8.1"

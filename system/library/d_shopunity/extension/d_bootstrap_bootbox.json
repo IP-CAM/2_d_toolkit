@@ -1,6 +1,6 @@
 {
     "codename": "d_bootstrap_bootbox",
-    "version": "4.4.2",
+    "version": "4.4.3",
     "name": "Bootstrap Bootbox",
     "description": "Implementation of bootstrap-bootbox https://github.com/makeusabrew/bootbox",
     "author": {
@@ -8,24 +8,7 @@
         "email": "info@shopunity.com",
         "url": "https://github.com/makeusabrew/bootbox"
     },
-    "opencart_version": [
-        "2.0.0.0",
-        "2.0.1.0",
-        "2.0.1.1",
-        "2.0.2.0",
-        "2.0.3.1",
-        "2.1.0.1",
-        "2.1.0.2",
-        "2.2.0.0",
-        "2.3.0.0",
-        "2.3.0.1",
-        "2.3.0.2",
-        "3.0.0.0",
-        "3.0.1.1",
-        "3.0.1.2",
-        "3.0.2.0",
-        "3.0.3.1"
-    ],
+    "opencart_version": "2.0.1.0-4",
     "type": "library",
     "license": {
         "type": "free",
@@ -43,6 +26,10 @@
         "catalog/view/javascript/d_bootstrap_bootbox"
     ],
     "changelog": [
+        {
+            "version":"4.4.3",
+            "change": "sem vars"
+        },
         {
             "version":"4.4.2",
             "change": "Added support OC v3.0.3.1"
